@@ -11,7 +11,7 @@ class Joueur{
 let joueurs = [new Joueur('X', "imgx.png"), new Joueur('O', "imgo.png")];
 let tour = 0;
 
-let grille = ['t','i','c','t','a','c','t','0','e'];
+let grille = ['T','i','C','t','A','c','T','0','E'];
 let casesPrises = 0;
 
 let erreur = document.getElementById("erreur");

@@ -8,44 +8,32 @@ body{
     max-height: 800px;
 }
 
+section, table{
+    flex: 30%;
+}
+
 section{
     display: flex;
     flex-direction: column;
-    flex: 30%;
 }
 
-#retour{
-
-}
-
-.ligne{
-    justify-content: stretch;
-    flex-direction: row;
-}
-
-div{
-    flex: 30%;
+div, td{
     border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #FFFF77;
-    margin : 5px;
     padding: 10px;
 }
 
-#grille{
-    min-width: 240px;
-    min-height: 240px;
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 5px;
 }
 
-.ligne div{
-    flex: 30%;
-    /*flex: 1 0 20%;*/
+td{
     font-size: xxx-large;
-    /*min-height: 40px;*/
-    /*min-width: 40px;*/
-    margin: 1px;
+    text-align: center;
+    min-width: 55px;
 }
 
 
@@ -60,7 +48,7 @@ img{
 }
 
 #erreur, #gagnant{
-    /*visibility: hidden;*/
+    visibility: hidden;
 }
 
 #erreur{
@@ -78,15 +66,8 @@ img{
     background-color: #7777FF;
 }
 
-@media screen and (min-width: 801px){
-    /*section{
-        flex: 30%;
-    }*/
-}
-
 @media screen and (max-width: 800px){
     body {
         flex-direction: column;
     }
 }
-

@@ -6,33 +6,30 @@
     <link href="styleTP1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-<section id="retour">
-<div>
-    <a href="pageprincipale.html">Retour à la page principale</a>
-    <img src="imgx.png"/>
-</div>
+<section>
+    <div>
+        <a href="pageprincipale.html">Retour à la page principale</a>
+        <img src="imgx.png"/>
+    </div>
 </section>
-
-<section id="grille">
-    <section class="ligne">
-        <div onclick="attribuerCase(this, 0)"></div>
-        <div onclick="attribuerCase(this, 1)"></div>
-        <div onclick="attribuerCase(this, 2)"></div>
-    </section>
-    <section class="ligne">
-        <div onclick="attribuerCase(this, 3)"></div>
-        <div onclick="attribuerCase(this, 4)"></div>
-        <div onclick="attribuerCase(this, 5)"></div>
-    </section>
-    <section class="ligne">
-        <div onclick="attribuerCase(this, 6)"></div>
-        <div onclick="attribuerCase(this, 7)"></div>
-        <div onclick="attribuerCase(this, 8)"></div>
-    </section>
-</section>
-
-<section id="affichage">
+<table>
+    <tr>
+        <td onclick="attribuerCase(this, 0)">&nbsp;</td>
+        <td onclick="attribuerCase(this, 1)">&nbsp;</td>
+        <td onclick="attribuerCase(this, 2)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td onclick="attribuerCase(this, 3)">&nbsp;</td>
+        <td onclick="attribuerCase(this, 4)">&nbsp;</td>
+        <td onclick="attribuerCase(this, 5)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td onclick="attribuerCase(this, 6)">&nbsp;</td>
+        <td onclick="attribuerCase(this, 7)">&nbsp;</td>
+        <td onclick="attribuerCase(this, 8)">&nbsp;</td>
+    </tr>
+</table>
+<section>
     <div id="titre">Jeu du Tic-tac-toe</div>
     <div class="X" id="joueur">Joueur X</div>
     <div id="erreur">Cochez une case vide !</div>
