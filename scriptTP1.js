@@ -77,8 +77,8 @@ function afficheGagnant(message){
     gagnant.style.visibility = "visible";
     document.getElementById("joueur").style.visibility = "hidden";
 
-    let divs = document.getElementsByTagName("div");
-    for(let i=0; i<divs.length;i++) {
-        divs[i].removeAttribute("onclick");
+    let tds = document.getElementsByTagName("td");
+    for(let i=0; i<tds.length;i++) {
+        tds[i].removeAttribute("onclick");
     }
 }
